@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>按钮、图片、文字效果</title>
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<!--[if IE]-->
+<script type="text/javascript" src="js/html5.js"></script>
+<!--[endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+        </div>
+        <header>
+				<h1>利用CSS3相关技术实现<span>按钮、图片、文字</span>效果</h1>
+				<h2>border-radius、box-shadow</h2>
+		</header>
+        <div class="content">
+                <div class="part">
+                <h3>1) &nbsp;border-radius + box-shadow实现大终端文本框效果</h3>
+                <input class="telpone_numberbc" name="" type="text" value="" />
+                </div>
+                <div class="part">
+                <h3>2) &nbsp;box-shadow详解（外阴影）</h3>
+                	<ul>
+                    <li  class="normal">box-shadow: 0 0 10px #555;</li>
+                    <li class="spread">box-shadow:0 0 10px 10px #555;</li>
+                    <li class="noshadow">	box-shadow: 0 0 10px -10px #555</li>
+                    <li class="shadowbottom">border-radius      实现圆角</li>
+                    <li class="spread1">box-shadow: 0 10px 10px -10px #555</li>
+                    </ul>
+                </div>
+                <div class="part">
+                <h3>2) &nbsp;box-shadow详解（内阴影）</h3>
+                	<ul>
+                    <li class="normalinset">box-shadow: inset 0 0 10px #555</li>
+                    <li class="spreadinset">box-shadow: <br />inset 0 0 10px 10px #555</li>
+                    <li class="more">box-shadow: <br />inset 0 -20px 10px -4px #555,<br />
+                    inset -20px 0px 10px -8px #555,<br />inset 0 20px 10px -16px #555,<br />
+                    inset 20px 0px 10px -16px #555</li>
+                    </ul>
+                </div>
+                <div class="part">
+                <h3>2) &nbsp;box-shadow详解（特殊效果）</h3>
+                	<ul>
+                    <li  class="more1">	box-shadow: <br />
+0 0 1px 2px purple,<br />
+0 0 1px 4px blue,<br />
+0 0 1px 6px green,<br />
+0 0 1px 8px yellow,<br />
+0 0 1px 10px orange,<br />
+0 0 1px 12px red</li>
+                    <li class="spread2" style="margin-left:130px;margin-top:80px;margin-bottom:120px;">box-shadow:0 0 100px 30px #555</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

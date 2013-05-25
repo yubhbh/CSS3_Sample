@@ -1,0 +1,37 @@
+﻿/**头部css**/
+.quantity{ background:url(../images/form.png) no-repeat; width:62px; height:43px; line-height:42px; font-size:24px; border:none; text-align:center; margin:0px 8px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.twice_numberbc{ background:url(../images/twice.png) no-repeat; width:239px; height:56px; line-height:56px; border:none; font-size:24px; padding-left:25px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.fill_input{ background:url(../images/fill_form.png) no-repeat; width:241px; height:56px; line-height:56px; border:none; font-size:24px; padding-left:25px; font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.barcode_numberbc{ background:url(../images/telp_number.png) 0px -56px no-repeat; width:291px; height:56px; line-height:56px; border:none; font-size:24px; padding-left:25px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.paymentbarcode_numberbc{ background:url(../images/telp_number.png) 0px -56px no-repeat; width:301px; height:56px; line-height:56px; border:none; font-size:15px; padding-left:15px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.barcode_numberbcactive{ background:url(../images/telp_number1.png) no-repeat; width:316px; height:56px; line-height:56px; border:none; font-size:24px; padding-left:25px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.barcode_gray{ background:url(../images/barcode_numberbc1.png) no-repeat; width:301px; height:56px; line-height:56px; border:none; font-size:24px; padding-left:15px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.date_form{ background:url(../images/dateform.png) no-repeat; width:237px; height:56px; border:none; line-height:56px;font-size:24px; padding-left:25px; font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.date_formcurrent{ background:url(../images/dateform.png) 0px -56px no-repeat; width:237px; height:56px; border:none; line-height:56px;font-size:24px; padding-left:25px; font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.telpone_numberbc{ background:url(../images/telp_number.png) no-repeat; width:241px; height:56px; line-height:56px; border:none; font-size:24px;  padding-left:25px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.font14{font-size: 15px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;} 
+
+.airlineid{ font-size:22px; width:251px; padding-left:15px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+
+/**表单初如始化字体提示信息css**/
+.form_grayword{font-size:18px; color:#666;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+
+/**银行卡转账提示信息css**/
+.transfer_numberbc{ background:url(../images/telp_number1.png) no-repeat; width:296px; height:56px; line-height:56px; border:none; font-size:24px; padding-left:20px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.transfer_numberbccurrent{background:url(../images/telp_number.png) 0px -56px no-repeat;width:296px; height:56px; line-height:56px; border:none; font-size:24px; padding-left:20px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+
+/**彩票输入身份证css**/
+.id_codeform{ background:url(../images/id_formbc.png) no-repeat; width:335px; height:56px; line-height:56px; border:none; font-size:24px;  padding-left:25px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+
+.hand_form{ padding-left:10px; width:256px}
+.bankcard_formactive{ padding-left:12px; width:310px;height:56px;line-height:56px;background:url(../images/telp_number.png) 0px -56px no-repeat; border:none; font-size:24px; font-family: "微软雅黑" Arial, Helvetica, sans-serif; }
+.bankcard_form{ padding-left:12px; width:310px;height:56px;line-height:56px; background:url(../images/barcode_numberbc1.png) 0px 0px no-repeat; border:none; font-size:24px;font-family: "微软雅黑" Arial, Helvetica, sans-serif; }
+
+
+/**/
+.areatbox_bc{ background:url(../images/address_inputbg.png) 0px 0px no-repeat; width:237px; height:68px;padding-top:10px; line-height:30px; border:none; font-size:18px; padding-left:25px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.areatbox_bccurrent{ background:url(../images/address_inputbg.png) 0px -79px no-repeat; width:237px; height:71px;padding-top:10px; line-height:30px; border:none; font-size:18px; padding-left:25px;font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+
+
+.datem_form{ background:url(../images/date_month_drop_bg.png) no-repeat; width:141px; height:56px; border:none; line-height:56px;font-size:24px; padding-left:25px; font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
+.datem_formcurrent{ background:url(../images/date_month_drop_bg.png) 0px -55px no-repeat; width:141px; height:61px; border:none; line-height:56px;font-size:24px; padding-left:25px; font-family: "微软雅黑" Arial, Helvetica, sans-serif;}
